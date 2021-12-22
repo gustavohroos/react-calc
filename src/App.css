@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+.box {
+  flex: 0;
+  background-color: #FFF;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.container {
+  padding-top: 10%;
+  padding-bottom: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: linear-gradient(135deg, green,blue);
+}
+
+.calc {
+  width: 300px;
+  flex: none;
+}
+
+.theme-light {
+  background-color: #FFF;
+  color: #000;
+  border: 1px solid #000;
+}
+.theme-dark {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #999;
+}
+
+.scrolled {
+  overflow-y: screen;
+}

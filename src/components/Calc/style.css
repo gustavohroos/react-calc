@@ -1,0 +1,36 @@
+.screen {
+    font-size: 30px;
+    text-align: right;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 5px;
+    height: 120px;
+}
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+.key {
+    background-color: #999;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+.key:hover {
+    background-color: #777;
+}
+.k-plus {
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+}
+.k-r {
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+}
+.k-0 {
+    grid-column: 1 / 4;
+}
